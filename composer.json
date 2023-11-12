@@ -1,8 +1,10 @@
 {
   "name": "plutuss/sauce-framework",
   "description": "description",
+  "type": "project",
   "minimum-stability": "stable",
   "license": "MIT",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "plutuss",
