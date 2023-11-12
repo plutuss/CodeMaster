@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Plutuss\\Sauce\\": "../sauce-core/src/"
+      "App\\": "app/"
     }
   }
 }
