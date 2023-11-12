@@ -1,4 +1,4 @@
-name: php-kinopoisk-lite
+name: sauce-framework
 recipe: lemp
 config:
   #  webroot: public
