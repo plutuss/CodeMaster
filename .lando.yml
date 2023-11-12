@@ -1,0 +1,13 @@
+name: php-kinopoisk-lite
+recipe: lemp
+config:
+  #  webroot: public
+  via: nginx
+  config:
+    # custom nginx vhosts config
+    vhosts: .lando/nginx.conf
+  php: '8.2'
+  database: mysql
+services:
+  phpmyadmin:
+    type: phpmyadmin

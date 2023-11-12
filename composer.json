@@ -1,0 +1,26 @@
+{
+  "name": "plutuss/sauce-framework",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "plutuss",
+      "email": "dima92konovalenko@gmail.com",
+      "homepage": "https://github.com/plutuss"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-http": "*",
+    "ext-pdo": "*",
+    "ext-dom": "*",
+    "ext-curl": "*",
+    "plutuss/sauce-core": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plutuss\\Sauce\\": "../sauce-core/src/"
+    }
+  }
+}
