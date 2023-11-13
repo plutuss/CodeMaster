@@ -9,3 +9,10 @@ Copy:
 ```code
 .env.dev  => .env
 ```
+
+
+Run:
+```code
+lando start
+```
+
