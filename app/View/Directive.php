@@ -10,9 +10,9 @@ use Plutuss\SauceCore\View\ViewBladeDirectiveInterface;
 class Directive extends ViewBladeDirective implements ViewBladeDirectiveInterface
 {
 
-    public function handler()
+    public function handler(): void
     {
-        $this->directive('route',function($expression){
+        $this->directive('route', function ($expression) {
             return "<?php route($expression) ?>";
         });
     }
