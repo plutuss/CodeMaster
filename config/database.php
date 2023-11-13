@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'driver' => 'mysql',
-    'host' => 'database',
-    'port' => 3306,
-    'database' => 'lemp',
-    'username' => 'lemp',
-    'password' => 'lemp',
-    'charset' => 'utf8',
-    ];
+    'driver' => envt('DRIVER_DB', 'mysql'),
+    'host' => envt('DB_HOST', 'database'),
+    'port' => envt('DB_PORT', 3306),
+    'database' => envt('DB_DATABASE', 'lemp'),
+    'username' => envt('DB_USERNAME', 'lemp'),
+    'password' => envt('DB_PASSWORD', 'lemp'),
+    'charset' => envt('CHARSET_DB', 'utf8'),
+];

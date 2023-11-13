@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'name' => 'SauceApp',
-    'url' => 'http://localhost',
+    'name' => envt('APP_NAME', 'SauceApp'),
+    'url' => envt('APP_URL', 'http://localhost'),
 ];

@@ -1,10 +1,7 @@
 <?php
 
-
-use Framework\Config\Config;
-
 return [
-    'url' => Config::get('app.url') .'/storage/',
+    'url' => config('app.url') . '/storage/',
     'path' => APP_DIR . "/storage/",
     'dir' => '',
 ];
