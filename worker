@@ -1,0 +1,13 @@
+<?php
+
+use Plutuss\SauceCore\Console\Console;
+
+require_once __DIR__ . '/vendor/autoload.php';
+$path = __DIR__ . '/config/commands.php';
+
+if (file_exists($path)) {
+    $commands = include $path;
+    (new Console)->setCommands($commands['register'])->handler();
+}
+
+ 
