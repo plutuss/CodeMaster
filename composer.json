@@ -1,6 +1,6 @@
 {
   "name": "plutuss/sauce-framework",
-  "description": "description",
+  "description": "The skeleton application for the Sauce framework.",
   "type": "project",
   "minimum-stability": "stable",
   "license": "MIT",
