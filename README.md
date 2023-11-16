@@ -2,7 +2,7 @@
 
 Composer:
 ```shell
-composer create-project  plutuss/sauce-framework  sauce-framework-app  --ignore-platform-reqs
+composer create-project plutuss/code-master  CodeMaster-app  --ignore-platform-reqs
 ```
 
 Copy:
