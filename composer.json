@@ -1,6 +1,6 @@
 {
-  "name": "plutuss/sauce-framework",
-  "description": "The skeleton application for the Sauce framework.",
+  "name": "plutuss/code-master",
+  "description": "The skeleton application for the CodeMaster framework.",
   "type": "project",
   "minimum-stability": "stable",
   "license": "MIT",
