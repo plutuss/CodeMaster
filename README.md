@@ -16,3 +16,8 @@ Run:
 lando start
 ```
 
+Make Controller:
+```code
+php worker make:controller UserController
+```
+
