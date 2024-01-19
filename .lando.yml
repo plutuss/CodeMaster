@@ -1,4 +1,4 @@
-name: sauce-framework
+name: CodeMaster-framework
 recipe: lemp
 config:
   #  webroot: public
