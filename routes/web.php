@@ -1,7 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
-use Plutuss\SauceCore\Routing\Route;
+use Plutuss\CodeMaster\Routing\Route;
 
 /*
 |--------------------------------------------------------------------------

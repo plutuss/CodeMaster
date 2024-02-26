@@ -1,8 +1,8 @@
 <?php
 
-use Plutuss\SauceCore\App;
+use Plutuss\CodeMaster\App;
 
-define('APP_DIR', __DIR__);
+const APP_DIR = __DIR__;
 
 header("Content-Type: text/html");
 

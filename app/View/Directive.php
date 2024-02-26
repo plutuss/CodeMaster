@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\View;
 
-use Plutuss\SauceCore\View\ViewBladeDirective;
-use Plutuss\SauceCore\View\ViewBladeDirectiveInterface;
+use Plutuss\CodeMaster\View\ViewBladeDirective;
+use Plutuss\CodeMaster\View\ViewBladeDirectiveInterface;
 
 class Directive extends ViewBladeDirective implements ViewBladeDirectiveInterface
 {

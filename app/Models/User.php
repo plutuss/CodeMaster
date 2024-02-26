@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace App\Models;
 
-use Plutuss\SauceCore\Auth\UserInterface;
-use Plutuss\SauceCore\Model\Model;
+use Plutuss\CodeMaster\Auth\UserInterface;
+use Plutuss\CodeMaster\Model\Model;
 
 class User extends Model implements UserInterface, BaseModelInterface
 {
