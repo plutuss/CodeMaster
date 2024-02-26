@@ -3,8 +3,10 @@
 use App\Console\Commands\HelloworldCommand;
 
 return [
-
+    /**
+     * register
+     */
     'register' => [
-        HelloworldCommand::class,
+        HelloWorldCommand::class,
     ]
 ];
