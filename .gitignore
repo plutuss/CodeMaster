@@ -16,6 +16,8 @@ npm-debug.log
 yarn-error.log
 /.idea
 /dbdata
+/packages
+/packages/*
 /uploads.ini
 /.vscode
 /.devcontainer
