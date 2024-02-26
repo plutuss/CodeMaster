@@ -1,6 +1,6 @@
 <?php
 
-use Plutuss\SauceCore\Console\Console;
+use Plutuss\CodeMaster\Console\Console;
 
 require_once __DIR__ . '/vendor/autoload.php';
 $path = __DIR__ . '/config/commands.php';
